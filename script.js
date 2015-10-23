@@ -35,4 +35,5 @@ socket.on('readable', function() {
   var sb = new SlowBuffer(10);
   // copy the data into the new allocation
   data.copy(sb, 0, 0, 10);
-  store.push(
+  store.push()
+  //edited from githum online
